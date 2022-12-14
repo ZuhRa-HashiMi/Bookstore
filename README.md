@@ -29,14 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 [book-store] <a name="about-project"></a>
 
-
-
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) consisting of 3 pages: Home, Calculator, and Quote that allows users to:
-- Make simple calculations
-- Read a math-related quote
-- see instructions to use in homepage
+It is website for Book store where we can * Display a list of books. *Add a book. *Remove a selected book.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
@@ -61,17 +56,14 @@ To get a local copy up and running follow these simple example steps.
 ### Key Features <a name="key-features"></a>
 
 
-- **[ A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)]**
-- **[ VSCode or any other equivalent code editor]**
-- **[Node Package Manager]**
-
+- **[it doesn't have any functionality yet.)]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://zuhra-hashimi.github.io/Math_Magicians/dist)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +151,6 @@ cd <Your-Build-Directory>
 
 - [ ] **[Implemented with React]**
 - [ ] **[Faster than JS]**
-- [ ] **[calculate every methmatics operation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

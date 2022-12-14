@@ -5,7 +5,7 @@ import AddBook from './addBook';
 
 const homePage = () => (
   <div className="homePage">
-    { <BookList /> }
+    <BookList />
     <AddBook />
   </div>
 );
