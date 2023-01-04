@@ -1,6 +1,11 @@
 /* eslint-disable react/prop-types */
-const Book = ({ book }) => {
-  const { title, author } = book;
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/book';
+
+const Book = (props) => {
+  const dispatch = useDispatch();
+  const { title, author, id } = props;
+
   return (
     <div className="books-container">
       <div className="book-info">
@@ -9,7 +14,7 @@ const Book = ({ book }) => {
         <p className="book-author">{author}</p>
         <div className="book-buttons-container">
           <button type="button" className="book-button">Comments</button>
-          <button type="button" className="book-button">Remove</button>
+          <button type="button" className="book-button" onClick={() => dispatch(removeBook(id))}>Remove</button>
           <button type="button" className="book-button">Edit</button>
         </div>
       </div>
