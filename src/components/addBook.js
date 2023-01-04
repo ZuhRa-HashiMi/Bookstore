@@ -5,6 +5,18 @@ import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
 
 const AddBook = () => (
+    const [book, setBook] = useState({});
+
+  const dispatch = useDispatch();
+
+  const inputValue = (element) => {
+    setBook({
+      ...book,
+      id: uuidv4(),
+      [element.target.name]: element.target.value,
+    });
+  };
+
   <div className="form-container">
     <h3 className="add-book-title">ADD NEW BOOK</h3>
     <form
