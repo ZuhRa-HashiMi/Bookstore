@@ -1,44 +1,19 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './components/navBar';
-import HomePage from './components/homePage';
-import Categories from './components/categories';
+import { Provider } from 'react-redux';
+import { Routes, Route } from 'react-router-dom';
 
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+import Navigation from './components/Navigation';
+import Categories from './pages/Categories';
+import Home from './pages/Home';
+import store from './redux/configureStore';
 
-  render() {
-    return (
-      <div className="App">
-        <BrowserRouter>
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/categories" element={<Categories />} />
-          </Routes>
-        </BrowserRouter>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Provider store={store}>
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="categories" element={<Categories />} />
+    </Routes>
+  </Provider>
+);
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <NavBar />
-//       <BrowserRouter>
-//         <Routes>
-//           <Route path="/" element={<HomePage />} />
-//           <Route path="/categories" element={<Categories />} />
-//         </Routes>
-//       </BrowserRouter>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
+export default App;
