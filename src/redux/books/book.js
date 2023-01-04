@@ -10,4 +10,15 @@ const BookReducer = (state = books, action) => {
     }
   };
 
+  
+export const addBook = (payload) => ({
+    type: ADD_BOOK,
+    payload,
+  });
+  
+  export const removeBook = (payload) => ({
+    type: REMOVE_BOOK,
+    id: payload,
+  });
+
   export default BookReducer;
