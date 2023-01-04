@@ -12,6 +12,7 @@ const BookReducer = (state = books, action) => {
       return state;
   }
 };
+// add coment for linters error
 
 export const addBook = (payload) => ({
   type: ADD_BOOK,
