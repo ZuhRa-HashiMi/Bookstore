@@ -1,18 +1,19 @@
-/* eslint-disable linebreak-style */
 import React from 'react';
 
 const AddBook = () => (
-  <div className="addBook">
-    <form>
-      <label htmlFor="title">
-        Title
-        <input type="text" id="title" placeholder="Title" />
-      </label>
-      <label htmlFor="author">
-        Author
-        <input type="text" id="author" placeholder="Author" />
-      </label>
-      <button type="button">Add Book</button>
+  <div className="form-container">
+    <h3 className="add-book-title">ADD NEW BOOK</h3>
+    <form
+      action="/action_page.php"
+      onSubmit={(e) => {
+        e.preventDefault();
+        dispatch(addBook(book));
+        e.target.reset();
+      }}
+    >
+      <input type="text" name="title" placeholder="Book Title" onChange={(e) => inputValue(e)} required />
+      <input type="text" name="author" placeholder="Author" onChange={(e) => inputValue(e)} required />
+      <button type="submit">Add Book</button>
     </form>
   </div>
 );
