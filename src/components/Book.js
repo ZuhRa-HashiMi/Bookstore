@@ -1,10 +1,10 @@
-/* eslint-disable react/prop-types */
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/book';
+import { removeBook } from '../redux/books/books';
 
 const Book = (props) => {
   const dispatch = useDispatch();
   const { title, author, id } = props;
+
   return (
     <div className="books-container">
       <div className="book-info">
