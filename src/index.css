@@ -125,3 +125,24 @@ nav a {
   border-right: 2px solid #e8e8e8;
 }
 
+
+.progress-container {
+  align-items: center;
+}
+
+.circular-progress-bar {
+  width: 5.625rem;
+  height: 5.625rem;
+  padding: 0.63rem 0.625rem 0.75rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-progress {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
