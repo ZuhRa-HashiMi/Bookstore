@@ -158,4 +158,10 @@ nav a {
   font-size: 0.875rem;
   margin: 0;
 }
+.progress-devider {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 0 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
+}
 
