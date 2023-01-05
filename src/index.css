@@ -164,4 +164,8 @@ nav a {
   margin: 0 3.688rem 0 4.938rem;
   background-color: #e8e8e8;
 }
+.chapter-container {
+  flex-direction: column;
+  width: 14rem;
+}
 
