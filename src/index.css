@@ -169,3 +169,42 @@ nav a {
   width: 14rem;
 }
 
+.current-chapter {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.chapter {
+  margin-top: 0.438rem;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  letter-spacing: -0.4px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+
+
+.update-progress-button {
+  cursor: pointer;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+.update-progress-button:hover {
+  background-color: #0380e0;
+}
+
+.update-progress-button:active {
+  background-color: #036bbb;
+}
+
