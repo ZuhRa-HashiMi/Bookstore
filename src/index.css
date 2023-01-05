@@ -125,7 +125,6 @@ nav a {
   border-right: 2px solid #e8e8e8;
 }
 
-
 .progress-container {
   align-items: center;
 }
@@ -158,12 +157,14 @@ nav a {
   font-size: 0.875rem;
   margin: 0;
 }
+
 .progress-devider {
   width: 0.125rem;
   height: 4.375rem;
   margin: 0 3.688rem 0 4.938rem;
   background-color: #e8e8e8;
 }
+
 .chapter-container {
   flex-direction: column;
   width: 14rem;
@@ -184,7 +185,6 @@ nav a {
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
-
 
 .update-progress-button {
   cursor: pointer;
@@ -208,7 +208,6 @@ nav a {
   background-color: #036bbb;
 }
 
-
 .form-container {
   padding-top: 1.813rem;
   border-top: 0.125rem solid #e8e8e8;
@@ -227,7 +226,6 @@ form {
   grid-gap: 32px;
   gap: 32px;
 }
-
 
 .add-book-input {
   appearance: none;
