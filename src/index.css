@@ -208,3 +208,23 @@ nav a {
   background-color: #036bbb;
 }
 
+
+.form-container {
+  padding-top: 1.813rem;
+  border-top: 0.125rem solid #e8e8e8;
+}
+
+.add-book-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  color: #888;
+  margin: 0;
+}
+
+form {
+  margin-top: 20px;
+  grid-gap: 32px;
+  gap: 32px;
+}
+
