@@ -228,3 +228,45 @@ form {
   gap: 32px;
 }
 
+
+.add-book-input {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 25%;
+}
+
+.add-book-input:focus {
+  outline: none;
+  border: 1px solid #0290ff;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 25%;
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: #0380e0;
+}
+
+.submit-btn:active {
+  background-color: #036bbb;
+}
