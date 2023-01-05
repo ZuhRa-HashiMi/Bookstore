@@ -82,3 +82,46 @@ nav a {
   padding: 2rem;
   margin-bottom: 2.5rem;
 }
+
+.book-category {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #888;
+}
+
+.book-name {
+  margin: 0.188rem 0;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+.book-author {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.book-buttons-container {
+  align-items: center;
+  margin-top: 1.313rem;
+}
+
+.book-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.book-button:nth-child(2) {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-left: 2px solid #e8e8e8;
+  border-right: 2px solid #e8e8e8;
+}
+
