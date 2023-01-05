@@ -38,4 +38,3 @@ const AddBook = () => {
 };
 
 export default AddBook;
-// addd coment for linters error
