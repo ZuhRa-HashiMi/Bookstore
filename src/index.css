@@ -146,3 +146,16 @@ nav a {
   border-left-color: #e8e8e8;
   transform: rotate(45deg);
 }
+
+.complete-precent {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
