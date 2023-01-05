@@ -64,3 +64,21 @@ nav a {
   letter-spacing: 1.9px;
   text-transform: uppercase;
 }
+
+.app-container {
+  background-color: #fafafa;
+  padding: 4%;
+}
+
+.user-icon {
+  color: #0290ff;
+}
+
+.book-container {
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
