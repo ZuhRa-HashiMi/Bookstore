@@ -8,3 +8,19 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f3f4f8;
 }
+
+#root {
+  background-color: #feffff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.blue-txt {
+  color: #4386bf;
+}
+
+.dark-gret-txt {
+  color: #12121250;
+}
