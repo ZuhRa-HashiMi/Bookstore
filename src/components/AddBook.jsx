@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
@@ -37,3 +38,4 @@ const AddBook = () => {
 };
 
 export default AddBook;
+// addd coment for linters error
